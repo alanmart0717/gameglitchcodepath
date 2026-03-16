@@ -26,7 +26,13 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📝 Document Your Experience
 
 - [ ] Describe the game's purpose.
+Game is to guess the number generated between 1 and 100. There are different difficulty levels
 - [ ] Detail which bugs you found.
+The game allowed me to input a number more than 100 and less than 0. While the point of the game was to guess within the range of 1 and 100, most of the time the guessing number was well above or below the range
+
+Clicking New Game resets attempts, but does not restart the game. Attempting to play after your game finished still has a popup stating Game over. Inputing number does not reset this, nor do the attempts decrease
+
+Game ends even after one attempt remaining, creating a misleading experience 
 - [ ] Explain what fixes you applied.
 
 ## 📸 Demo
